@@ -9,9 +9,16 @@ export const metadata = {
       rel: 'icon',
       type: 'image/png',
       url: '/assets/icons/logo.png',
-      // media: '(prefers-color-scheme: dark)'
-    }
-  ]
+      media: '(prefers-color-scheme: light)'
+    },
+    {
+        rel: 'icon',
+        type: 'image/png',
+        url: '/assets/icons/logo-white-outline.png',
+        media: '(prefers-color-scheme: dark)'
+      }
+  ],
+  title: "Pato a Jato"
 }
 
 export default function RootLayout({
